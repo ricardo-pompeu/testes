@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GHopers</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/bold/style.css"/>
+</head>
+
+<body>
+  <div class="app">
+    <header class="top-bar">
+      <div class="menu-icon"> <i class="ph-bold ph-list"></i> </div>
+      <div class="logo"> <img class="logoaw" src="./HP.svg" alt="Imagem logo"> </div>
+      <div class="cart-icon"> <i class="ph-bold ph-shopping-cart"></i>   </div>
+    </header>
+    
+    <div class="search-box">
+      <button> <i class="ph-bold ph-magnifying-glass"></i> </button>
+      <input type="text" placeholder="O que você está procurando?" />
+    </div>
+
+    
+
+    <section class="featured">
+
+      <h2 class="h221">O que os outros estão vendo</h2>
+
+
+    </section>
+
+    <div class="carousel-background">
+
+        
+      <div class="carousel" id="carousel">
+
+          <div class="buttons">
+              <button onclick="prevSlide()"> <i data-lucide="chevron-left"></i> </button>
+              <button onclick="nextSlide()"> <i data-lucide="chevron-right"></i> </button>
+          </div>
+
+          <div class="carousel-images">
+              <img src="./img/1.png" alt="Imagem 1">
+              <img src="./img/2.png" alt="Imagem 2">
+              <img src="./img/3.png" alt="Imagem 3">
+              <img src="./img/4.png" alt="Imagem 4">
+          </div>
+          
+      </div>
+
+      <div class="dots">
+          <span class="dot active" onclick="goToSlide(0)"></span>
+          <span class="dot" onclick="goToSlide(1)"></span>
+          <span class="dot" onclick="goToSlide(2)"></span>
+          <span class="dot" onclick="goToSlide(3)"></span>
+      </div>
+
+  </div>
+
+
+
+
+    <section class="recommended">
+      <h2>Lançamentos</h2>
+
+    </section>
+
+    <section class="hot-deals">
+      
+      <div class="product-grid">
+        <div class="grid-item"> <div class="pro-img"> </div> <p>Sofa</p><span>$80</span></div>
+        <div class="grid-item"> <div class="pro-img"> </div> <p>Chair</p><span>$30</span></div>
+        <div class="grid-item"><div class="pro-img"> </div><p>Table</p><span>$40</span></div>
+        <div class="grid-item"><div class="pro-img"> </div><p>Wall Shelf</p><span>$40</span></div>
+        <div class="grid-item"><div class="pro-img"> </div><p>Table</p><span>$40</span></div>
+        <div class="grid-item"><div class="pro-img"> </div><p>Wall Shelf</p><span>$40</span></div>
+      </div>
+
+        <div class="banner-1">
+          <h3>Amazon Products</h3>
+          <span>Hot Deals</span>
+        </div>
+
+        <div class="product-grid">
+          <div class="grid-item"><div class="pro-img"> </div><p>Sofa</p><span>$80</span></div>
+          <div class="grid-item"><div class="pro-img"> </div><p>Chair</p><span>$30</span></div>
+          <div class="grid-item"><div class="pro-img"> </div><p>Table</p><span>$40</span></div>
+          <div class="grid-item"><div class="pro-img"> </div><p>Wall Shelf</p><span>$40</span></div>
+          <div class="grid-item"><div class="pro-img"> </div><p>Table</p><span>$40</span></div>
+          <div class="grid-item"><div class="pro-img"> </div><p>Wall Shelf</p><span>$40</span></div>
+        </div>
+
+        <section class="recommended">
+          <h2>Mais vendidos</h2>
+        </section>
+
+        <div class="product-grid">
+          <div class="grid-item"> <div class="pro-img"> </div> <p>Sofa</p><span>$80</span></div>
+          <div class="grid-item"> <div class="pro-img"> </div> <p>Chair</p><span>$30</span></div>
+          <div class="grid-item"><div class="pro-img"> </div><p>Table</p><span>$40</span></div>
+          <div class="grid-item"><div class="pro-img"> </div><p>Wall Shelf</p><span>$40</span></div>
+          <div class="grid-item"><div class="pro-img"> </div><p>Table</p><span>$40</span></div>
+          <div class="grid-item"><div class="pro-img"> </div><p>Wall Shelf</p><span>$40</span></div>
+        </div>
+
+        
+
+      
+      
+    </section>
+
+    <header class="bot-bar">
+      
+    </header>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
